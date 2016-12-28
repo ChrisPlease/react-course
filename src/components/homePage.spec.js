@@ -2,7 +2,7 @@ import React from 'react';
 import Home from './homePage';
 import {shallow, render} from 'enzyme';
 
-describe('The Home module', () => {
+fdescribe('The Home module', () => {
 
   describe('The title in the module', () => {
     it.only('will display the title', () => {
