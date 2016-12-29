@@ -1,5 +1,5 @@
-// Register babel to transpile before our tests run.
-require('babel-register')();
+import chalk from 'chalk';
 
-// Disable webpack features that Mocha doesn't understand.
-require.extensions['.css'] = function() {};
+/* eslint-disable no-console */
+
+console.log(chalk.green('Initializing tests...'));

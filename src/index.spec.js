@@ -1,7 +1,7 @@
-import {expect} from 'chai';
+import React from 'react';
 
 describe('A passing test', () => {
-  it('will pass this test', function () {
-    expect(true).to.equal(true);
+  it('will pass this test', () => {
+    expect(true).toEqual(true);
   });
 });
