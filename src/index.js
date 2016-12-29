@@ -8,4 +8,3 @@ render(
   <Home />,
   document.getElementById('container')
 );
-
