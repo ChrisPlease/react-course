@@ -11,7 +11,7 @@
     "security-check": "nsp check",
     "pretest": "babel-node build/testSetup.js",
     "test": "jest",
-    "test:config": "jest --config=.jest.json",
+    "test:config": "jest --config=.jestrc.json",
     "test:watch": "npm run test -- --watch"
   },
   "author": "Chris Pruyne",
