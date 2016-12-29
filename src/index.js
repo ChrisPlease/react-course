@@ -4,7 +4,17 @@ import Home from './components/homePage';
 
 import './styles/style.scss';
 
+class App extends React.Component {
+  render() {
+    return (
+      <div className="container">
+        <Home />
+      </div>
+    );
+  }
+}
+
 render(
-  <Home />,
-  document.getElementById('container')
+  <App />,
+  document.getElementById('app')
 );

@@ -1,19 +1,17 @@
 import React from 'react';
+import HomeForm from './homeForm/homeForm';
 
 class Home extends React.Component {
 
   constructor(props) {
     super(props);
-    this.state = {
-      title: 'Hello World'
-    };
+    this.state = { title: 'Home Form' }
   }
 
   render() {
     return (
-      <div className="jumbotron">
-        <h1>{this.state.title}</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea aut aperiam aliquid, minus blanditiis culpa.</p>
+      <div className="col-xs-12 col-sm-10 col-sm-push-1 col-md-8 col-md-push-2">
+        <HomeForm title={this.state.title} />
       </div>
     );
   }
