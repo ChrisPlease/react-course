@@ -1,14 +1,13 @@
 import React from 'react';
 import Home from './homePage';
-import {shallow, render} from 'enzyme';
+import {shallow} from 'enzyme';
 
 fdescribe('The Home module', () => {
 
   describe('The title in the module', () => {
-    it.only('will display the title', () => {
-      const component = render(<Home />);
-      // console.log(component.find('h1'));
-      expect(true).toEqual(true);
+    it('will display the title', () => {
+      const component = shallow(<Home />);
+      expect(component.state('title')).toEqual('Hello World');
     });
   });
 

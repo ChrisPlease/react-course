@@ -2,8 +2,7 @@
   "moduleFileExtensions": ["js"],
   "moduleDirectories": ["node_modules", "src"],
   "unmockedModulePathPatterns": [
-    "node_modules/react/",
-    "node_modules/enzyme/"
+    "node_modules/"
   ],
   "moduleNameMapper": {
     "\\.(css|scss)$": "identity-obj-proxy",
