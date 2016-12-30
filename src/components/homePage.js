@@ -1,5 +1,5 @@
 import React from 'react';
-import HomeForm from './homeForm/homeForm';
+import HomeForm from './homeForm';
 
 class Home extends React.Component {
 
